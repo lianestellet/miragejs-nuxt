@@ -8,7 +8,7 @@ steps:
 - checkout
 - run:
 name: Fetch dependencies
-  command: yarn install --no-progress --non-interactive --silent --pure-lockfile
+command: yarn install --no-progress --non-interactive --silent --pure-lockfile
 - run:
 name: Run test suite
 command: yarn test_ci
