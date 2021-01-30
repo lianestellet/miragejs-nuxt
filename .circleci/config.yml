@@ -19,4 +19,4 @@ paths:
 workflows:
 test-and-deploy:
 jobs:
-  - run-test-suite
+    - run-test-suite
