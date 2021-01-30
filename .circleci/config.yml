@@ -25,6 +25,9 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/project
+      - run:
+          name: Generate dist files
+          command: yarn generate
       - heroku/deploy-via-git
 workflows:
   test-and-deploy:
