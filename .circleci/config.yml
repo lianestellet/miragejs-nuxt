@@ -5,7 +5,7 @@ docker:
 - image: circleci/node:10.20.0
 working_directory: ~/project
 steps:
-- checkout
+- checkout:
 - run:
 name: Fetch dependencies
 command: yarn install --no-progress --non-interactive --silent --pure-lockfille
