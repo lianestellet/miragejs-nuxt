@@ -3,6 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">miragejs-nuxt</h1>
+
       <div class="links">
         <a
           href="https://nuxtjs.org/"
