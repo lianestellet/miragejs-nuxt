@@ -2,7 +2,7 @@
   <a-layout>
     <a-layout-sider></a-layout-sider>
     <a-layout-content>
-      <h1>Reminders</h1>
+      <h1 class="title">Reminders</h1>
     </a-layout-content>
   </a-layout>
 </template>
