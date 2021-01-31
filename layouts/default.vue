@@ -1,8 +1,20 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <a-layout class="container">
+    <app-header></app-header>
+    <a-layout>
+      <Nuxt />
+    </a-layout>
+  </a-layout>
 </template>
+
+<script>
+import appHeader from './partials/appHeader';
+export default {
+  components: {
+    appHeader,
+  },
+}
+</script>
 
 <style>
 html {

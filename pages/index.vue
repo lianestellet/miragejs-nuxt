@@ -1,29 +1,10 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">miragejs-nuxt</h1>
-
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
+  <a-layout>
+    <a-layout-sider></a-layout-sider>
+    <a-layout-content>
+      <h1 class="title">Reminders</h1>
+    </a-layout-content>
+  </a-layout>
 </template>
 
 <script>
@@ -31,13 +12,15 @@ export default {}
 </script>
 
 <style>
-.container {
+
+.root {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #e2e8f0;
 }
 
 .title {
